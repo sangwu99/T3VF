@@ -32,29 +32,9 @@ pip install -r requirements.txt
 
 ### 3. Checkpoint
 
-Download `ckpt.zip` from the release and extract it to the `ckpt/` directory:
+For the **w/ Perturbed Train** setting, fine-tune [Mantis](https://github.com/Yysrc/Mantis) on the LIBERO-Plus dataset following its training procedure, and place the resulting `model.pt` under `ckpt/`.
 
-```bash
-unzip ckpt.zip -d ckpt/
-```
-
-The resulting structure should be:
-
-```
-T3VF/
-├── ckpt/
-│   └── model.pt
-├── config/
-│   └── norm_stats.json
-├── models/
-├── T3VF/
-│   ├── evaluation.py
-│   ├── evaluation_ood.py
-│   ├── mantis_vla_utils.py
-│   └── libero_utils.py
-├── evaluation.sh
-└── evaluation_ood.sh
-```
+The **w/o Perturbed Train** setting uses the official pretrained Mantis checkpoints directly, so no additional checkpoint is needed.
 
 
 ## Evaluation
