@@ -26,7 +26,6 @@ export LIBERO_PLUS_PATH=/path/to/LIBERO-plus
 ### 2. T³VF Setup
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/T3VF.git
 cd T3VF
 pip install -r requirements.txt
 ```
