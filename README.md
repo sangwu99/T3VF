@@ -1,6 +1,6 @@
 # T³VF: Test-Time Training for Visual Foresight Vision-Language-Action Models
 
-<img src="assets/architecture.png" width="20%"></img> 
+<img src="assets/architecture.png" width="50%"></img> 
 
 The official source code for [**Test-Time Training for Visual Foresight Vision-Language-Action Models**](https://arxiv.org/abs/2605.08215), accepted at **ICML 2026 Workshop on Contunual Adaptation at Scale (CATS)**.
 
